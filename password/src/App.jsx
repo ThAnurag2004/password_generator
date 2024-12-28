@@ -41,7 +41,7 @@ function App() {
         ref={passwordCopy}        
         readOnly
         />
-        <button className="outline-none bg-blue-500 px-2" onClick={passwordCopytoClipboard} >Copy</button>
+        <button className="outline-none bg-blue-600 px-2 hover:bg-blue-700 text-white" onClick={passwordCopytoClipboard} >Copy</button>
       </div>
       <div className="flex text-sm gap-x-2">
         <div className="flex items-centr gap-x-1">
